@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex{
+    display: flex;
+}
+/* this is header */
+.container{
+    width: 100%;
+}
+.header{
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+}
+.nav-container{
+    /* width: 1548px; */
+    
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    align-items: center;
+
+}
+.item{
+    padding-right: 10px;
+   
+}
+.btn{
+    width: 141px;
+    color: white;
+    background-color: #F04037;
+    height: 45px;
+    border: #F04037;
+    border-radius: 4px;
+}
+.banner{
+    width: 70%;
+    /* height: 674px; */
+    display: flex;
+    margin: auto;
+    padding-top: 0px;
+}
+.banner-content{
+    width: 50%;
+    height: 513px;
+    margin: auto;
+    margin-left: 146px;
+    padding-top: 90px;
+}
+.banner-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+}
+.email{
+    margin-right: 60px;
+    margin-left: 10px;
+}
+/* this is main section */
+
+.rating{
+    background-color: #5454D4;
+    display: flex;
+    color: white;
+    padding: 110px;
+    margin: auto;
+    
+}
+.rating-left{
+    margin: auto;
+    height: 211px;
+    width: 50%;
+    align-items: center;
+    /* margin-left: 288px; */
+}
+.rating-right{
+    margin: auto;
+    height: 211px;
+    width: 50%;
+}
+/* this is section one */
+.section-one{
+    width: 70%;
+    margin: auto;
+    gap: 10px;
+    
+}
+
+.shadow{
+    margin-top: 30px;
+    padding: 20px ;
+    width: 300px;
+  
+  background-color: #f0f0f0;
+  box-shadow: 2px 5px 10px rgba(216, 202, 202, 0.1);
+  border-radius: 8px;
+}
+.section-two{
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+}
+.section-two-left{
+    display: flex;
+    gap: 10px;
+}
+.colomn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.colomn-two{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.photo.img{
+    width: 100%;
+    height: 100%;
+}
+/* section three */
+.section-three{
+    width: 70%;
+    margin: auto;
+    gap: 10px;
+  
+  
+
+}
+.section-three-right{
+    padding-top: 130px;
+}
+.section-four-img{
+    width: 100%;
+}
+/* Your CSS styles for small screens go here */
+@media (max-width: 767px) {
+   .banner{
+    flex-direction: column;
+   }
+   .item{
+    padding-right: 0px;
+   
+}
+   .rating{
+    flex-direction: column;
+   }
+  }
